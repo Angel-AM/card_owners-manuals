@@ -1,0 +1,38 @@
+.letter{
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+  label {
+      margin: 15px;
+      
+  }
+  
+  .card-input-element {
+      display: none;
+  }
+ 
+  .card-input-element:checked + .card-input {
+      padding: 10px;
+       box-shadow: 0 0 1px 1px rgb(193, 37, 37);
+   }
+  
+   .title-second{
+       font-size: 50px;
+   }
+
+   .back-car{
+       display: flex;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.54) 0%,rgba(0, 0, 0, 0.54) 100%), url("https://www.mitsubishi-motors.mx/content/dam/mitsubishi-motors/images/site-images/cars/eclipse-cross-phev/my21/technology/EP_T11.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: white;
+    padding: 10%;
+   }
+
+   .text-img{
+       font-size: 50px;
+       padding-left: 10%;
+       padding-right: 10%;
+       text-align: center;
+   }
