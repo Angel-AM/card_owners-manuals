@@ -36,3 +36,71 @@
        padding-right: 10%;
        text-align: center;
    }
+
+
+   /* ______________ */
+   input[type=radio] {
+       position: absolute;
+       display: none;
+   }
+
+   #plan-cards-container input[type="radio"]:checked ~ .plan-card-radio-button {
+       background-color: #00A8E1;
+   }
+   
+   input[type=radio]:checked ~ label .plan-card, 
+   input[type=radio]:checked ~ label .plan-card-bg {
+       background-color: black;
+       border-radius: 2%;
+   }
+   
+   
+
+   
+   .plan-card {
+       border: none;
+       width: auto;
+       height: auto;
+       
+       padding: 2px;
+       
+   }
+   
+   
+
+   
+
+   input[type=radio]:checked + label .benefit-check:after {
+       content: '';
+       display: block;
+       width: 10px;
+       height: 20px;
+
+       border-width: 0 2px 2px 0;
+       -webkit-transform: rotate(45deg);
+          -moz-transform: rotate(45deg);
+           -ms-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+               transform: rotate(45deg);
+   }
+
+   input[type=radio]:checked + label .not-included-in-plan {
+       color: #23acdb;
+   }
+   
+   .plan-card .benefit {
+       padding-bottom: 10px;
+       line-height: 18px;
+       height: 35px;
+       text-indent: -32px;
+   }
+
+
+   
+
+
+
+
+
+
+
